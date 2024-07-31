@@ -1,0 +1,81 @@
+body {
+  align-items: center;
+  margin: 0;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fec7b4;
+}
+.mainCont {
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+.taksList {
+  display: flex;
+  height: 30px;
+  align-items: center;
+  border: 2px solid #ff6868;
+  background-color: white;
+  border-radius: 10px;
+  width: 50%;
+  justify-content: space-between;
+  padding: 10px;
+  margin: auto;
+}
+
+#taksList {
+  margin-bottom: 5px;
+}
+
+#taskInput {
+  /* padding: 10px; */
+  display: flex;
+  margin: auto;
+  border: 5px solid #ff6868;
+  border-radius: 10px;
+  width: 50%;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  background-color: white;
+}
+
+.taskInputBar {
+  width: 80%;
+  height: 40px;
+  margin-top: 2px;
+  font-size: x-large;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  background-color: white;
+}
+
+.createBtn {
+  width: 20%;
+  height: 30px;
+  margin: 4px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-top: 8px;
+  background-color: #ff6868;
+  color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.createBtn:hover {
+  background-color: #ff6868;
+}
+
+.DeleteBtn,
+.EditBtn {
+  border: 2px solid #ff6868;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
